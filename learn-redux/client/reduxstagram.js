@@ -18,7 +18,7 @@ import store, {history} from './store';
 // import Raven from 'raven-js';
 import { sentry_url, logException } from './config';
 
-Raven.config(sentry_url).install();
+//Raven.config(sentry_url).install();
 
 
 const router = (
